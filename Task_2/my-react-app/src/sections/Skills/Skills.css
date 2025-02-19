@@ -1,0 +1,20 @@
+.minniemal-skills1 {
+    background: #00042C;
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .minniemal-skills1 h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    margin-top: 20px;
+    align-items: center;
+  }
+  

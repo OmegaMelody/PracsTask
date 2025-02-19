@@ -1,0 +1,47 @@
+.minniemal-portfolio1 {
+  background: #00042C;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.minniemal-portfolio1 h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Стилі для ПК-режиму */
+.portfolio-images {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.portfolio-images img {
+  max-height: 111px;
+  /* Можна за бажанням додати max-width, якщо потрібно */
+  width: auto;
+}
+
+/* Медіа-запит для мобільних пристроїв */
+@media (max-width: 600px) {
+  .portfolio-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .portfolio-images img {
+    max-width: 90%;
+    max-height: none; /* щоб не конфліктувало з max-height на ПК */
+    height: auto;
+  }
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+}

@@ -1,0 +1,16 @@
+.minniemal-about {
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+  }
+  .minniemal-about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .line {
+    width: 100px;
+    height: 2px;
+    background: #ccc;
+    margin-bottom: 20px;
+  }
+  
