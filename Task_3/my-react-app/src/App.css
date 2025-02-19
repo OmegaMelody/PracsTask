@@ -1,0 +1,138 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1abc9c, #3498db);
+  min-height: 100vh;
+}
+
+/* Стилі для заголовку */
+.header {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Сітка для палітр */
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.palette-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  padding: 10px;
+}
+
+.palette-card:hover {
+  transform: scale(1.05);
+}
+
+.palette-name {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.palette-preview {
+  display: flex;
+}
+
+.palette-color {
+  flex: 1;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+
+.palette-color:last-child {
+  margin-right: 0;
+}
+
+/* Сторінка вибору кольору */
+.color-picker {
+  padding: 20px;
+  text-align: center;
+}
+
+.color-picker h2 {
+  margin-bottom: 20px;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.color-box {
+  height: 100px;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+.color-code {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}
+
+.back-button {
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #ccc;
+}
+
+/* Стилі для оверлею з вибраним кольором */
+.color-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.overlay-text {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  border-radius: 5px;
+}

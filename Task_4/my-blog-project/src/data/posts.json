@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "title": "UX review presentations",
+      "category": "Design",
+      "excerpt": "How do you create compelling presentations that wow your colleagues and impress your managers?",
+      "authorName": "Jane Cooper",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvrhOWlTCzDFjx79zT5Q57M8YWKLarNPS5aLqf2l9P3KRe4EfR1qpu7cXtSVUvgTkhrY&usqp=CAU",
+      "date": "2023-03-15"
+    },
+    {
+      "id": 2,
+      "title": "Migrating to Linear 101",
+      "category": "Product",
+      "excerpt": "Learn the basics of migrating your tasks, watchers, and reporting from other platforms.",
+      "authorName": "Sam Smith",
+      "image": "https://www.freshbooks.com/wp-content/uploads/2022/01/how-many-hours-do-people-work-in-a-year.jpg",
+      "date": "2023-02-10"
+    },
+    {
+      "id": 3,
+      "title": "Building your API stack",
+      "category": "Software Engineering",
+      "excerpt": "Learn how to plan, build, and ship your next big API project with these tips.",
+      "authorName": "Sharon Li",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5V6APPTNIpuWM9FTXTtztGJ2Ua30hmy2ZQ&s",
+      "date": "2023-03-20"
+    },
+    {
+      "id": 4,
+      "title": "Weekly newsletter",
+      "category": "Newsletter",
+      "excerpt": "Stay up to date with the latest releases, tutorials, interviews, and more.",
+      "authorName": "",
+      "image": "https://incae.edu/wp-content/uploads/2023/10/tendencias-de-marketing-para-2022.jpg",
+      "date": "2023-01-25"
+    },
+    {
+      "id": 5,
+      "title": "PM mental models",
+      "category": "Product",
+      "excerpt": "Exploring the frameworks, approaches & leadership perspectives for product managers.",
+      "authorName": "Wade Warren",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHfSrvY-EiLSqePEKLdWvHXU0q07u_ZLtCJA&s",
+      "date": "2023-03-01"
+    },
+    {
+      "id": 6,
+      "title": "What is wireframing?",
+      "category": "Design",
+      "excerpt": "Learn the basics of wireframing, its benefits, tools, and best practices.",
+      "authorName": "Ralph Edwards",
+      "image": "https://cloudinary.hbs.edu/hbsit/image/upload/s--jcW2HPqC--/f_auto,c_fill,h_375,w_750,/v20200101/EA99CC738B99D0AA67987EC2976D550F.jpg",
+      "date": "2023-03-05"
+    },
+    {
+      "id": 7,
+      "title": "How collaboration makes us better designers",
+      "category": "Culture",
+      "excerpt": "Working together fosters stronger and more creative design solutions.",
+      "authorName": "Ronald Richards",
+      "image": "https://cdn.prod.website-files.com/65130e79c72ae8812db3412e/6718fbb85d1152665bfafec4_Untitled%20design%20(14).jpg",
+      "date": "2023-02-01"
+    },
+    {
+      "id": 8,
+      "title": "Our top 10 Javascript frameworks to use",
+      "category": "Software Engineering",
+      "excerpt": "A rundown of the best JS frameworks, when to use them, and how they can benefit your next project.",
+      "authorName": "Courtney Henry",
+      "image": "https://www.amworldgroup.com/blog/wp-content/uploads//fde638f4-3f0f-452b-bf2f-06a84d4780dc.png.webp",
+      "date": "2023-03-12"
+    },
+    {
+      "id": 9,
+      "title": "Podcast: Creating a better CX Community",
+      "category": "Customer Success",
+      "excerpt": "What does it take to get smart? We talk about how to get deeper knowledge in customer success.",
+      "authorName": "Cameron Williamson",
+      "image": "https://sustainnovationblog.com/wp-content/uploads/2024/09/management-group.jpg",
+      "date": "2023-02-15"
+    },
+    {
+      "id": 10,
+      "title": "How to Scale Design Teams",
+      "category": "Design",
+      "excerpt": "Proven strategies to effectively grow and manage design teams in modern companies.",
+      "authorName": "Cody Fisher",
+      "image": "https://img.freepik.com/free-photo/aerial-view-business-data-analysis-graph_53876-13390.jpg",
+      "date": "2023-03-02"
+    },
+    {
+      "id": 11,
+      "title": "Remote Onboarding Tips",
+      "category": "Product",
+      "excerpt": "How to successfully onboard new employees in a fully remote environment.",
+      "authorName": "Robert Fox",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBdg7OXPq-0hxywWoFPCCJlgOJujDfLTEW4Q&s",
+      "date": "2023-03-10"
+    }
+  ]
+  

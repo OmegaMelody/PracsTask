@@ -1,0 +1,220 @@
+/* RESET */
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+/* Основні стилі */
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Мінімальна висота - 100% вікна */
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  background: #e3f2fa;
+}
+ul { list-style: none; }
+a { text-decoration: none; color: #007acc; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 10px; }
+p { margin-bottom: 15px; }
+.line {
+  width: 100px;
+  height: 2px;
+  background: #ccc;
+  border: none;
+  margin-bottom: 20px;
+}
+
+/* === МЕНЮ (шапка) === */
+.top-header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.top-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+.top-nav a.active {
+  font-weight: 700;
+  color: #00042C; /* підсвітка */
+}
+
+/* === ОСНОВНИЙ КОНТЕЙНЕР (main) === */
+main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  flex: 1; /* Розтягує main на всю доступну висоту */
+
+}
+
+/* === ФУТЕР === */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+/* === HERO === */
+.minniemal-hero {
+  background: #00042C; 
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap; /* для адаптивності */
+  gap: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.minniemal-herotext {
+  flex: 1 1 300px; 
+}
+.minniemal-herotext h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero-image {
+  max-width: 400px;
+  border: 2px solid #fff;
+}
+.minniemal-button2 {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* === ABOUT === */
+.minniemal-about {
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.minniemal-about h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* === SERVICES === */
+.minniemal-services {
+  background: #00042C;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+.service-item {
+  text-align: center;
+  width: 150px;
+}
+.service-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+/* === PORTFOLIO === */
+.minniemal-portfolio1 {
+  background: #00042C;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.minniemal-portfolio1 h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.portfolio-images {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.portfolio-images img {
+  max-height: 111px;
+}
+.portfolio-list {
+  display: flex;
+  gap: 20px;
+}
+
+/* === SKILLS === */
+.minniemal-skills1 {
+  background: #00042C;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.minniemal-skills1 h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* === EDUCATION (About page) === */
+.minniemal-education {
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+/* === EXPERIENCE (About page) === */
+.minniemal-experience {
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.minniemal-experience h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* === COVER LETTER (About page) === */
+.minniemal-cover-letter {
+  background: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+/* === CONTACT === */
+.minniemal-contact {
+  background: #00042C;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+.contact-form {
+  margin-bottom: 40px;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+.contact-form button {
+  padding: 10px 20px;
+  background: #00042C;
+  color: #fff;
+  border: 1px solid #00042C;
+  cursor: pointer;
+}
